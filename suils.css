@@ -1,0 +1,247 @@
+body{
+    text-transform:capitalize;
+    box-sizing:border-box;
+}
+
+.nav{
+    margin-left:70px;
+    margin-top:30px;
+    position:fixed;
+    z-index: 3;
+    top:0;
+    overflow:auto;
+    height:100%;
+    width:175px;
+    box-sizing: border-box;
+
+
+}
+.navication-1{
+    height:429px;
+    padding:64px 0 64px 0;
+    
+}
+
+
+.lonk{
+    display:block;
+    text-decoration:none;
+    height:429px;
+    padding: 8px 16px 8px 16px;
+    line-height: 25px;
+    background:#FFFFFF;
+    width:175px;
+    cursor: pointer;
+    font-size:18px;
+    font-weight:700;
+    height:43px;
+    box-sizing: border-box;
+    color:rgb(33, 43, 43);
+    overflow:auto;
+
+
+}
+    .lonk-1{
+    display:block;
+    text-decoration:none;
+    line-height: 27px;
+    background:#FFFFFF;
+    width:175px;
+    cursor: pointer;
+    font: size 18px;
+    font-weight:700;
+    box-sizing: border-box;
+    height:43px;
+    color:rgb(33, 43, 43);
+    padding:8px 16px 8px 16px;
+    
+
+
+}
+.navication p img{
+    border-radius:50px;
+    display:inline-block;
+    height:75px;
+    width:75px;
+    
+}
+.home{
+    background:#FFFFFF;
+    color:rgb(33, 43, 43);
+    display:block;
+    text-decoration:none;
+    line-height: 27px;
+    
+    width:175px;
+    cursor: pointer;
+    font: size 18px;
+    font-weight:700;
+    box-sizing: border-box;
+    height:43px;
+
+    padding:8px 16px 8px 16px;
+
+}
+.lonk:hover{
+    background:rgb(199, 197, 193);
+    color:gray;
+}
+.lonk-1:hover{
+    background:rgb(199, 197, 193);
+    color:gray;}
+    #suils{
+        background:rgb(199, 197, 193);
+        color:gray;
+    }
+    .home:hover{
+        background:rgb(199, 197, 193);
+        color:gray;
+    }
+    .contentbar{
+    
+        left:330;
+        top:35px;
+        height:100%;
+        display:inline-block;
+    
+    
+        
+     
+    
+    }
+        
+    
+    
+    .content1{
+        box-sizing: border-box;
+        text-transform:uppercase;
+        padding-left:70px;
+        font-size: 18px;
+        font-weight:700;
+    
+        
+        
+    }
+    
+    .content2{
+        background:url(https://d17a17kld06uk8.cloudfront.net/products/Q8CYQP7/IYUXB5C9-original.jpg);
+        display:block;
+        background-repeat:no-repeat;
+        background-size:cover;
+        font-size:40px;
+        color:rgb(230, 230, 230);
+        text-shadow:1px 1px 1px white;
+        padding-top:150px;
+        padding-left:50px;
+        box-sizing: border-box;
+        width:1041px;
+        height:1265px;
+    
+    
+    }
+    .shopnowbutton{
+        text-decoration:none;
+        font-size:30px;
+        color:rgb(230, 230,230);
+        background:rgba(0, 0, 0, 0.336);
+        display:inline-block;
+        height:60px;
+        width:150px;
+        box-sizing: border-box;
+        padding:10px;
+        border-radius:10px;
+    }
+    .shopnowbutton:active{
+        background:rgb(230, 230, 230);
+        color:gray;
+    }
+    .content6{
+        line-height:17px;
+        font-size:30px;
+        font-weight:700;
+        box-sizing: border-box;
+        padding-left:20px;
+    
+    
+    
+    }
+    .content3{
+        display:table;
+        box-sizing: border-box;
+        width:1041px
+        
+    
+    
+    
+    }
+    .tr{
+        display:table-row;
+        box-sizing: border-box;
+    
+        
+    
+    }
+    .td{
+        display:table-cell;
+        box-sizing: border-box;
+        
+    
+    
+    }
+    .display{
+        height:400px;
+        width:240px;
+        border-left:20px solid white;
+    
+    
+        
+    
+    }
+    .new{
+        position:absolute;
+        left:290px;
+        font-size: 25px;
+        background:rgba(0, 0, 0, 0.548);
+        color:rgb(230, 230, 230)
+     
+    
+    
+    }
+    .byenow{
+        box-sizing: border-box;
+        position:absolute;
+        bottom: -1000px;
+        left:352px;
+        background:rgba(37, 35, 35, 0.288);
+        color:rgb(230, 230, 230);
+        height:60px;
+        width:131px;
+        border-radius:10px;
+       
+    
+    
+    
+    }
+    .byenow:active{
+       
+        background: rgb(230, 230, 230);
+        color:rgb(37, 35, 35);
+    
+    }
+    .new:hover{
+        background:rgb(230, 230, 230);
+        color:black;
+    
+    
+    
+    }
+    
+    .caption{
+        padding-left:25px;
+        font-size:20px;
+        line-height:30px;
+    
+    
+    
+    
+    }

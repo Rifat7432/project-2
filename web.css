@@ -1,0 +1,453 @@
+body{
+    text-transform:capitalize;
+    box-sizing:border-box;
+}
+
+.nav{
+    margin-left:70px;
+    margin-top:30px;
+    position:fixed;
+    z-index: 3;
+    top:0;
+    overflow:auto;
+    height:100%;
+    width:175px;
+    box-sizing: border-box;
+
+
+}
+.navication-1{
+    height:429px;
+    padding:64px 0 64px 0;
+    
+}
+
+
+.lonk{
+    display:block;
+    text-decoration:none;
+    height:429px;
+    padding: 8px 16px 8px 16px;
+    line-height: 25px;
+    background:#FFFFFF;
+    width:175px;
+    cursor: pointer;
+    font-size:18px;
+    font-weight:700;
+    height:43px;
+    box-sizing: border-box;
+    color:rgb(33, 43, 43);
+    overflow:auto;
+
+
+}
+    .lonk-1{
+    display:block;
+    text-decoration:none;
+    line-height: 27px;
+    background:#FFFFFF;
+    width:175px;
+    cursor: pointer;
+    font: size 18px;
+    font-weight:700;
+    box-sizing: border-box;
+    height:43px;
+    color:rgb(33, 43, 43);
+    padding:8px 16px 8px 16px;
+    
+
+
+}
+.navication p img{
+    border-radius:50px;
+    display:inline-block;
+    height:75px;
+    width:75px;
+    
+}
+.home{
+    background:rgb(199, 197, 193);
+    color:gray;
+    display:block;
+    text-decoration:none;
+    line-height: 27px;
+    
+    width:175px;
+    cursor: pointer;
+    font: size 18px;
+    font-weight:700;
+    box-sizing: border-box;
+    height:43px;
+
+    padding:8px 16px 8px 16px;
+
+}
+.lonk:hover{
+    background:rgb(199, 197, 193);
+    color:gray;
+}
+.lonk-1:hover{
+    background:rgb(199, 197, 193);
+    color:gray;
+}
+.contentbar{
+    
+    margin-left: 16rem;
+ 
+    height:100%;
+    display:inline-block;
+
+
+    
+ 
+
+}
+    
+
+
+.content1{
+    box-sizing: border-box;
+    text-transform:uppercase;
+    padding-left:70px;
+    font-size: 18px;
+    font-weight:700;
+
+    
+    
+}
+
+.content2{
+    background-image:url(https://images.unsplash.com/photo-1577394745831-5f5351823199?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym95cyUyMGZhc2hpb258ZW58MHx8MHx8&w=1000&q=80) ;
+ 
+    display:block;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size:40px;
+    color:rgb(230, 230, 230);
+    text-shadow:1px 1px 1px white;
+    padding-top:150px;
+    padding-left:50px;
+    box-sizing: border-box;
+    width:1041px;
+    height:1265px;
+    animation-name: ackgroundchinging;
+  
+   
+    animation-fill-mode:forwards ;
+    animation-iteration-count: infinite;
+    animation-delay:9s;
+    animation-duration:45s;
+    animation-direction:alternate;}
+
+
+
+
+.shopnowbutton{
+    text-decoration:none;
+    font-size:30px;
+    color:rgb(230, 230,230);
+    background:rgba(0, 0, 0, 0.336);
+    display:inline-block;
+    height:60px;
+    width:150px;
+    box-sizing: border-box;
+    padding:10px;
+    border-radius:10px;
+}
+.shopnowbutton:active{
+    background:rgb(230, 230, 230);
+    color:gray;
+}
+.content6{
+    line-height:17px;
+    font-size:30px;
+    font-weight:700;
+    box-sizing: border-box;
+    padding-left:20px;
+    margin-left: 16rem;
+
+
+
+
+}
+.content3{
+    display:table;
+    box-sizing: border-box;
+    width:1041px;
+    margin-left: 16rem;
+
+    
+
+
+
+}
+.tr{
+    display:table-row;
+    box-sizing: border-box;
+
+    
+
+}
+.td{
+    display:table-cell;
+    box-sizing: border-box;
+    
+
+
+}
+.display{
+    height:400px;
+    width:240px;
+    border-left:20px solid white;
+
+
+    
+
+}
+.new{
+    position:absolute;
+    left:290px;
+    font-size: 25px;
+    background:rgba(0, 0, 0, 0.548);
+    color:rgb(230, 230, 230)
+ 
+
+
+}
+.byenow{
+    box-sizing: border-box;
+    position:absolute;
+    bottom: -1000px;
+    left:352px;
+    background:rgba(37, 35, 35, 0.288);
+    color:rgb(230, 230, 230);
+    height:60px;
+    width:131px;
+    border-radius:10px;
+   
+
+
+
+}
+.byenow:active{
+   
+    background: rgb(230, 230, 230);
+    color:rgb(37, 35, 35);
+
+}
+.new:hover{
+    background:rgb(230, 230, 230);
+    color:black;
+
+
+
+}
+
+.caption{
+    padding-left:25px;
+    font-size:20px;
+    line-height:30px;
+
+
+
+
+}
+.content4{
+    box-sizing: border-box;
+    height:400px;
+    background:rgba(24, 22, 22, 0.918);
+    color:rgb(230, 230, 230);
+    text-shadow:1px 1px 1px white;
+    margin-left: 16rem;
+
+
+
+
+}
+.content4 h1{
+    font-size: 70px;
+    margin-left:30px;
+}
+.content4 h2{
+    font-size: 30px;
+    margin-left:50px;
+}
+.content4 input{
+    display: block;
+    width:70%;
+    height:60px;
+    margin-left:30px;
+}
+.content4 button{
+    display: block;
+    width:200px;
+    height:40px;
+    margin-left:50px;
+    margin-top:40px;
+    background:rgb(255, 0, 0);
+    font-weight: 300;
+    font-size:20px;
+    text-shadow:1px 1px 1px white;
+    color:rgb(230, 230, 230);
+
+
+
+
+}
+.content4 button:active{
+    background:rgb(90, 77, 77);
+    
+}
+footer{
+    background:#F1F1F1;
+    height:450px;
+    box-sizing: border-box;
+
+}
+.contactmain{
+    width:300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top:25px;
+
+
+
+}
+.contact{
+    width:300px;
+    height:30px;
+    margin-top:30px;
+    border:none;
+    border-radius: 5px;;
+
+    margin-left:30px;
+
+}
+.contactmain button{
+    color:rgb(230, 230, 230);
+    background:rgb(90, 77, 77);
+    width:310px;
+    
+
+
+}
+.contactmain h2{
+    margin-left:125px;
+    color:rgba(65, 61, 61, 0.685);
+    margin-bottom: 10px;
+
+
+     
+}
+.contactmain p{
+    margin-left:95px;
+    color:rgba(65, 61, 61, 0.685);
+    margin-bottom: 10px;
+
+
+
+} 
+.about{
+    display: inline-block;
+    margin-top:0px;
+    box-sizing:border-box;
+    margin-left:400px;
+    color:rgba(65, 61, 61, 0.685);
+
+}
+.about1{
+    display:block;
+    line-height:37px;
+    color:rgba(65, 61, 61, 0.685);
+    font-weight:300;
+
+
+}
+.about1:hover{
+    color:rgb(68, 61, 61);
+
+}
+
+    
+.content5{
+    background:black;
+    color:rgb(230, 230, 230);
+    height:90px;
+    font-size:25x;
+    box-sizing:border-box;
+    text-align: center;
+    margin-left: 16rem;
+
+    padding-top:21px;
+}
+.nothing{
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+    border:none;
+
+
+
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.hi{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.er{
+    margin-left: 16rem;
+
+}
+
+
+@keyframes backgroundchinging{
+    0%{background-image:url(https://images.unsplash.com/photo-1577394745831-5f5351823199?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym95cyUyMGZhc2hpb258ZW58MHx8MHx8&w=1000&q=80)}
+    12.5%{background-image:url(https://static.aadi.com.bd/__sized__/products/6532-17492-casual-shirt-party-wear-multi-color-amyclore-37224-1-thumbnail-1080x1080-70.jpg)}
+    25%{background-image:url(https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPYOYO-FASHIONYOYO73761FE31AE4A/1575440265083_4.jpg)}
+    37.5%{background-image:url(https://c0.wallpaperflare.com/preview/196/465/299/fashion-style-boys-fashion-pose.jpg)}
+    50%{background-image:url(https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)}
+    62.5%{background-image:url(https://media.gettyimages.com/photos/woman-getting-ready-to-party-picture-id684639933?s=170667a)}
+    75%{background-image:url(https://d17a17kld06uk8.cloudfront.net/products/Q8CYQP7/IYUXB5C9-original.jpg)}
+    87.5%{background-image:url(https://bdeshishop.com/cdn/assets/upload/medium/Footwear%20Catagory/623.jpg)}
+    100%{background-image:url(https://images.meesho.com/images/products/116064470/0nkhb_256.jpg)}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
